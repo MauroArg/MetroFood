@@ -1,0 +1,117 @@
+body{
+	font-family: arial;
+	background: url(../img/pedidos.jpg);
+	background-size: cover;
+}
+.foot{
+	margin-top: 30vh;
+}
+
+.form-container{
+	color: #fff;
+	border: 1px solid black;
+	padding: 50px 60px;
+	margin-top: 20vh;
+	background-color: black;
+	opacity: 0.7;
+}
+.titulo{
+  margin-top: 10%;
+  font-size: 65px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.franja{
+  background-color: #010F20;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-family: arial;
+  color: white;
+}
+.texto{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  font-family: arial;
+  color: white;
+}
+.titulo2{
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+}
+.inferior{
+  margin-bottom: 5%;
+}
+.texto2{
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  font-family: arial;
+  color: white;
+}
+
+
+.cuerpotab{
+	background-color: #010F20;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	font-family: arial;
+	color: white;;
+}
+table {
+	margin-right: 25%;
+	margin-left: 25%;
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+body{
+	font-family: arial;
+	background: url(../img/res1.jpg);
+	background-size: cover;
+}
+.foot{
+	margin-top: 30vh;
+}
+
+.form-container{
+	color: #fff;
+	border: 1px solid black;
+	padding: 50px 60px;
+	margin-top: 20vh;
+	background-color: black;
+	opacity: 0.8;
+}
+.boton{
+	width: 15%;
+	margin: 0 auto;
+}
